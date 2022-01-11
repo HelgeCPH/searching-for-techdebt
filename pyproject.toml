@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "searching-for-td"
+version = "0.1.0"
+description = ""
+authors = ["HelgeCPH <ropf@itu.dk>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyGithub = "^1.54.1"
+tabulate = "^0.8.9"
+pandas = "^1.2.4"
+requests = "^2.25.1"
+docopt = "^0.6.2"
+bs4 = "^0.0.1"
+lxml = "^4.6.3"
+tqdm = "^4.60.0"
+contribution-complexity = "^0.1.1"
+matplotlib = "^3.4.1"
+scipy = { version = "^1.6.2", python = ">=3.9,<3.10" }
+jupyter = "^1.0.0"
+
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.22.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
